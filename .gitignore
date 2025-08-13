@@ -1,0 +1,32 @@
+# Environnements virtuels
+.venv/
+env/
+venv/
+
+# Fichiers temporaires
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Données
+!data/metadata
+data/raw/
+data/processed/
+data/interim/
+
+# Modèles entraînés
+models/
+outputs/
+checkpoints/
+
+# Cache / logs
+*.log
+*.tmp
+.cache/
+
+# Fichiers OS
+.DS_Store
+
+# Configs perso
+.idea/
+.vscode/
