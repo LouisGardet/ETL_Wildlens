@@ -7,23 +7,14 @@ Ce projet fait partie d’un travail académique dans le cadre du Bachelor Intel
 
 ## 📁 Structure du projet
 
-ETL_Wildlens/
-│
-├── data/                     # Données (certaines exclues du dépôt)
-│   ├── metadata/             # Fichiers de métadonnées CSV
-│   └── processed/            # Données préparées (.npz, index)
-│
-├── notebooks/                # Notebooks Jupyter pour ETL et ML
-│   ├── 1_ETL_data_preparation.ipynb
-│   └── 2_ML_model_training.ipynb
-│
-├── src/                      # Scripts Python
-│   └── init.py
-│
-├── .gitignore
-├── README.md
-└── main.py
-
+📦 ETL_Wildlens
+┣ 📂 data/
+┃ ┗ 📂 metadata/       # Contient les fichiers CSV décrivant les datasets utilisés
+┣ 📂 notebooks/         # Contient les notebooks d’EDA et de modélisation
+┣ 📂 src/               # Code source Python : ETL, ML, API…
+┣ 📜 main.py            # Point d’entrée du projet
+┣ 📜 requirements.txt   # Dépendances du projet
+┗ 📜 README.md          # Documentation principale
 ---
 
 ## 🚀 Objectifs
