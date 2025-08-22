@@ -19,4 +19,4 @@ def get_dataloaders(data_dir, batch_size=32, img_size=(128, 128)):
     val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False)
     test_loader = DataLoader(test_ds, batch_size=batch_size, shuffle=False)
 
-    return train_loader, val_loader, test_loader
+    return train_loader, val_loader, test_loader, train_ds.classes
